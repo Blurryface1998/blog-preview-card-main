@@ -1,6 +1,8 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  max-width: 1440px;
+  max-height: 960px;
 }
 
 *,
@@ -14,4 +16,12 @@ body {
   padding: 0;
   font-family: var(--font-figtree);
   background-color: var(--yellow);
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
